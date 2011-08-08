@@ -1,6 +1,6 @@
 frozenPlus v1.0.0.0
 
-Samsung SPH-D700 (Epic 4G) kernel by chris41g
+Samsung SPH-D700 (Epic 4G) EC05 kernel by chris41g
 
 http://www.acsyndicate.net/
 
@@ -22,6 +22,7 @@ Includes CIFS support.
 Includes TUN support.
 Includes Netfilter TCPMSS support.
 Includes the Android logger as a (loaded) module.
+Hardware keyboard dropped key press fix w/ 7/9/11 efficiency patch (mkasick)
 OC/UV Capable, Available Freqs 1400,1300,1200,1120,1000,900,800,600,400,200,100
 Avail Governors Conservative, Interactive, InteractiveX, OnDemand, Performance, Powersave, Smartass, Transitional, Userspace
 
