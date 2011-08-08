@@ -36,8 +36,10 @@ BUILD_MAKELOGO()
 	echo "Begin build makelogo..." && echo ""
 	# remove old files
 	rm -f makelogo
+	rm -f makelogo1
 	# build binary
 	local RESULT=$(g++ -o makelogo makelogo.cpp 2>&1 >/dev/null)
+	local RESULT=$(g++ -o makelogo1 makelogo1.cpp 2>&1 >/dev/null)
 	# check for errors
 	local FIND_ERR_1="g++: "
 	if [ "$RESULT" != "${RESULT/$FIND_ERR_1/}" ]
@@ -75,9 +77,11 @@ CREATE_LOGO()
 	echo "Begin bootlogo creation..." && echo ""
 	# remove old files
 	rm -f boot_logo.h
+	rm -f charge_logo.h	
 	rm -f $LOGO_FILE
 	# convert header to usable data
 	./makelogo > boot_logo.h
+	./makelogo1 > charge_logo.h
 	# output to file
 	cat boot_logo.h >>$LOGO_FILE
 	cat charge_logo.h   >>$LOGO_FILE

@@ -6,11 +6,14 @@ http://www.acsyndicate.net/
 
 Feature list:
 -\/--\/--\/--\/--\/--\/--\/--\/--\/--\/--\/--\/--\/--\/--\/-
-
-Rooted kernel, su binary is included in /sbin.
-Flash tools (redbend_ua and bmlwrite) are included in /sbin.
+ACSUpdater, Quickboot,Kernel Manager, ROM Manager Compatible
+Rooted kernel, su binary, Superuser.apk, busybox are included in /sbin.
+Flash tools (redbend_ua and bmlwrite) are included in /sbin
+Dual-Boot Capable (Roderiks sdcard DB method)
 Custom bootlogo.
+CWM 3.1.0.1 Included
 Uses NOOP as the default I/O scheduler.
+Uses the Transitional Governer by default.
 Includes bootanimation.zip support.
 Includes init.d support.
 Includes RFS support.
@@ -19,6 +22,8 @@ Includes CIFS support.
 Includes TUN support.
 Includes Netfilter TCPMSS support.
 Includes the Android logger as a (loaded) module.
+OC/UV Capable, Available Freqs 1400,1300,1200,1120,1000,900,800,600,400,200,100
+Avail Governors Conservative, Interactive, InteractiveX, OnDemand, Performance, Powersave, Smartass, Transitional, Userspace
 
 -\/--\/--\/--\/--\/--\/--\/--\/--\/--\/--\/--\/--\/--\/--\/-
 

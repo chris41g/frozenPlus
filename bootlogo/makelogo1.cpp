@@ -1,5 +1,5 @@
 #include <iostream>
-#include </home/chris41g/android/ACSSRF1.3Kernel/bootlogo/boot_logo_gimp.h>
+#include </home/chris41g/android/ACSSRF1.3Kernel/bootlogo/charge_logo_gimp.h>
 
 using namespace std;
 
@@ -7,7 +7,7 @@ int main()
 {
 	int totalpixels = 480 * 800;
 	int breakcount = 1;
-	cout << "const unsigned long LOGO_RGB24[] = {\n";
+	cout << "const unsigned long charging[] = {\n";
 	for (int i = 0; i < totalpixels; i++)
 	{
 		unsigned char pixel[6] = "";

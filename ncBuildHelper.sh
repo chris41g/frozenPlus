@@ -10,7 +10,7 @@
 # define envvars
 TARGET="frozenPlus"
 KBUILD_BUILD_VERSION="frozenPlus-v1.0.0.0"
-CROSS_COMPILE="/home/chris41g/android/arm-2009q3/bin/arm-none-linux-gnueabi-"
+CROSS_COMPILE="/home/chris41g/arm-2009q3/bin/arm-none-linux-gnueabi-"
 
 # define defaults
 BUILD_KERNEL=n
